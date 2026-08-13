@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nifrep Radar — O que move o mercado, com a leitura da Nifrep</title>
+<meta name="description" content="O Nifrep Radar reúne Bloomberg, CVM, B3, Banco Central e Fed em um único feed, ordena cada notícia por impacto real nas carteiras e entrega a interpretação do time de research.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#topo">
+      <span class="brand-mark">N</span>
+      <span class="brand-text">
+        <span class="name">Nifrep Radar</span>
+        <span class="sub">Nifrep Investimentos</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#produto">Produto</a>
+      <a href="#telas">Telas</a>
+      <a href="#score">Score</a>
+      <a href="#para-quem">Para quem</a>
+      <a class="btn btn--primary nav-cta" href="#acesso" data-open-modal>Solicitar acesso</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="pill"><span class="pill-dot"></span>Acesso restrito · gestores e analistas</span>
+        <h1>O que move o mercado, já com a leitura da Nifrep.</h1>
+        <p>O Nifrep Radar reúne Bloomberg, CVM, B3, Banco Central e Fed em um único feed, ordena cada notícia por impacto real nas carteiras e entrega, ao lado dela, a interpretação do time de research.</p>
+        <div class="hero-actions">
+          <a href="#acesso" class="btn btn--primary" data-open-modal>Solicitar acesso</a>
+          <a href="#telas" class="btn btn--outline-dark">Ver o aplicativo</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-value">5 fontes</div>
+            <div class="stat-label">monitoradas em tempo real</div>
+          </div>
+          <div>
+            <div class="stat-value">0–100</div>
+            <div class="stat-label">score de impacto Nifrep</div>
+          </div>
+          <div>
+            <div class="stat-value">07:14</div>
+            <div class="stat-label">radar pronto antes da abertura</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="phone phone--large">
+          <div class="phone-status"><span>9:30</span><span class="dot"></span><span>▾ ◢ 100%</span></div>
+          <div class="phone-body">
+            <div class="app-topbar">
+              <div class="app-topbar-row">
+                <span class="app-mark">N</span>
+                <div>
+                  <div class="app-topbar-title">Nifrep Radar</div>
+                  <div class="app-topbar-sub">Bloomberg · CVM · B3 · BCB · FED</div>
+                </div>
+                <span class="app-avatar">GS</span>
+              </div>
+              <div class="app-chips">
+                <span class="app-chip active">Todos</span>
+                <span class="app-chip">Score 70+</span>
+                <span class="app-chip">Bloomberg</span>
+                <span class="app-chip">CVM</span>
+              </div>
+            </div>
+            <div class="app-content">
+              <div class="app-eyebrow">Maior impacto hoje</div>
+              <div class="highlight-card">
+                <div class="highlight-head">
+                  <span class="highlight-source">BLOOMBERG</span>
+                  <span class="highlight-time">07:12</span>
+                  <span class="highlight-score-label">Impacto</span>
+                  <span class="highlight-score">92</span>
+                </div>
+                <div class="highlight-body">
+                  <div class="highlight-title">Fed sinaliza pausa prolongada e derruba curva de juros americana</div>
+                  <div class="tag-row">
+                    <span class="tag">Macro</span>
+                    <span class="tag">Renda fixa</span>
+                    <span class="tag">Bancos</span>
+                  </div>
+                </div>
+              </div>
+              <div class="queue-list">
+                <div class="queue-item">
+                  <span class="queue-score">81</span>
+                  <div class="queue-copy">
+                    <div class="source">CVM · 08:40</div>
+                    <div class="title">CVM abre processo sobre divulgação em oferta subsequente</div>
+                  </div>
+                </div>
+                <div class="queue-item">
+                  <span class="queue-score">74</span>
+                  <div class="queue-copy">
+                    <div class="source">BANCO CENTRAL · 09:05</div>
+                    <div class="title">Focus traz mediana de IPCA 2027 abaixo do teto da meta</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O PROBLEMA -->
+  <section class="problem" id="produto">
+    <div class="wrap">
+      <div class="problem-copy reveal">
+        <span class="eyebrow eyebrow--accent">O problema</span>
+        <h2>Informação não falta. Falta hierarquia.</h2>
+      </div>
+      <div class="reveal">
+        <p>Um analista abre a manhã com terminal, fatos relevantes, editais e comunicados de política monetária em telas separadas. O trabalho difícil não é ler — é decidir, em minutos, o que realmente altera uma tese e o que é ruído.</p>
+        <div class="problem-cards">
+          <div class="mini-card">
+            <h3>4 telas</h3>
+            <p>abertas em paralelo para cobrir as mesmas cinco fontes.</p>
+          </div>
+          <div class="mini-card">
+            <h3>sem ordem</h3>
+            <p>o feed cronológico trata um fato relevante como uma nota qualquer.</p>
+          </div>
+          <div class="mini-card">
+            <h3>sem memória</h3>
+            <p>a leitura do time fica no chat e não volta anexada à notícia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE O RADAR FAZ -->
+  <section class="features">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow--accent">O que o Radar faz</span>
+        <h2>Quatro funções, uma rotina inteira resolvida.</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card reveal">
+          <div class="app-eyebrow">01 · Captura</div>
+          <h3>Cinco fontes, um feed</h3>
+          <p>Bloomberg, CVM, B3, Banco Central e Federal Reserve chegam normalizados no mesmo lugar, com origem e horário sempre visíveis. Filtros por fonte, tema e score acima de 70.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="app-eyebrow">02 · Priorização</div>
+          <h3>Score de Impacto Nifrep</h3>
+          <p>Cada notícia recebe uma nota de 0 a 100 calculada no backend da casa, com direção, horizonte e nível de confiança. O feed abre pelo maior impacto do dia, não pelo mais recente.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="app-eyebrow">03 · Interpretação</div>
+          <h3>Leitura Nifrep anexada ao fato</h3>
+          <p>Abaixo de cada manchete, o comentário do research: o que muda de primeira ordem, quais nomes da carteira são afetados e o que se mantém em posicionamento.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="app-eyebrow">04 · Acompanhamento</div>
+          <h3>Watchlist com a tese ao lado</h3>
+          <p>Os ativos monitorados aparecem com variação do dia, postura da casa (overweight, neutro, underweight) e quantas notícias tocaram aquele nome hoje.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O APLICATIVO / TRÊS TELAS -->
+  <section class="showcase" id="telas">
+    <div class="wrap">
+      <div class="showcase-intro reveal">
+        <span class="eyebrow">O aplicativo</span>
+        <h2>Três telas, do login à tese.</h2>
+        <p>Interface desenhada para leitura em pé, no caminho para a mesa: tipografia grande, contraste alto e nenhuma decoração competindo com o número que importa.</p>
+      </div>
+
+      <div class="showcase-grid">
+        <!-- Tela 01: Feed editorial -->
+        <div class="reveal">
+          <div class="showcase-col-head">
+            <span class="step-number">01</span>
+            <div>
+              <div class="title">Feed editorial</div>
+              <div class="desc">destaque + fila por impacto</div>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="phone-status"><span>9:30</span><span class="dot"></span><span>▾ ◢ 100%</span></div>
+            <div class="phone-body">
+              <div class="app-topbar">
+                <div class="app-topbar-row">
+                  <span class="app-mark">N</span>
+                  <div>
+                    <div class="app-topbar-title">Nifrep Radar</div>
+                    <div class="app-topbar-sub">Bloomberg · CVM · B3 · BCB · FED</div>
+                  </div>
+                </div>
+                <div class="app-chips">
+                  <span class="app-chip active">Todos</span>
+                  <span class="app-chip">Score 70+</span>
+                  <span class="app-chip">Macro</span>
+                </div>
+              </div>
+              <div class="app-content">
+                <div class="app-eyebrow">Maior impacto hoje</div>
+                <div class="highlight-card">
+                  <div class="highlight-head">
+                    <span class="highlight-source">BLOOMBERG</span>
+                    <span class="highlight-time">07:12</span>
+                    <span class="highlight-score">92</span>
+                  </div>
+                  <div class="highlight-body">
+                    <div class="highlight-title">Fed sinaliza pausa prolongada e derruba curva de juros</div>
+                    <div class="tag-row">
+                      <span class="tag">Macro</span>
+                      <span class="tag">Bancos</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="queue-list">
+                  <div class="queue-item">
+                    <span class="queue-score">81</span>
+                    <div class="queue-copy">
+                      <div class="source">CVM · 08:40</div>
+                      <div class="title">CVM abre processo sobre divulgação de oferta subsequente</div>
+                    </div>
+                  </div>
+                  <div class="queue-item">
+                    <span class="queue-score">74</span>
+                    <div class="queue-copy">
+                      <div class="source">BANCO CENTRAL · 09:05</div>
+                      <div class="title">Focus traz mediana de IPCA 2027 abaixo do teto da meta</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tela 02: Detalhe + leitura -->
+        <div class="reveal">
+          <div class="showcase-col-head">
+            <span class="step-number">02</span>
+            <div>
+              <div class="title">Detalhe + leitura</div>
+              <div class="desc">score, drivers, exposição</div>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="phone-status"><span>9:30</span><span class="dot"></span><span>▾ ◢ 100%</span></div>
+            <div class="phone-body">
+              <div class="app-topbar">
+                <div class="app-topbar-row">
+                  <span class="app-mark">N</span>
+                  <div>
+                    <div class="app-topbar-title">Nifrep Radar</div>
+                    <div class="app-topbar-sub">Detalhe da notícia</div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-content">
+                <div class="detail-crumb">‹ Radar</div>
+                <span class="detail-source">BLOOMBERG</span><span class="detail-meta">07:12 · Research Nifrep</span>
+                <div class="detail-title">Fed sinaliza pausa prolongada e derruba curva de juros</div>
+
+                <div class="score-card">
+                  <div class="app-eyebrow">Score de impacto Nifrep</div>
+                  <div class="score-row">
+                    <span class="score-number">92</span>
+                    <span class="score-of">/100</span>
+                    <span class="score-badge">ALTO</span>
+                  </div>
+                  <div class="score-bar"><span style="width:92%"></span></div>
+                  <div class="score-facts">
+                    <div>
+                      <div class="label">Direção</div>
+                      <div class="value">Positivo</div>
+                    </div>
+                    <div>
+                      <div class="label">Horizonte</div>
+                      <div class="value">Curto prazo</div>
+                    </div>
+                    <div>
+                      <div class="label">Confiança</div>
+                      <div class="value">Alta</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="app-eyebrow" style="margin-top:12px">Leitura Nifrep</div>
+                <p class="detail-reading">A leitura de que o comitê não tem pressa para retomar cortes reduz a volatilidade implícita na parte longa da curva americana e abre espaço para fluxo em ativos de risco de emergentes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tela 03: Watchlist -->
+        <div class="reveal">
+          <div class="showcase-col-head">
+            <span class="step-number">03</span>
+            <div>
+              <div class="title">Watchlist</div>
+              <div class="desc">ativos e teses</div>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="phone-status"><span>9:30</span><span class="dot"></span><span>▾ ◢ 100%</span></div>
+            <div class="phone-body">
+              <div class="app-topbar">
+                <div class="app-topbar-row">
+                  <span class="app-mark">N</span>
+                  <div>
+                    <div class="app-topbar-title">Nifrep Radar</div>
+                    <div class="app-topbar-sub">Watchlist · 5 ativos</div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-content">
+                <div class="watch-header">
+                  <span class="app-eyebrow" style="margin:0">Ativos monitorados</span>
+                  <span class="watch-count">5 posições</span>
+                </div>
+
+                <div class="watch-card">
+                  <div class="watch-top">
+                    <span class="watch-ticker">BPAC11</span>
+                    <span class="watch-company">BTG Pactual</span>
+                    <span class="watch-change pos">+1,8%</span>
+                  </div>
+                  <p class="watch-thesis">Overweight desde jan/26 — ganho de participação em banking e captação resiliente.</p>
+                  <div class="watch-foot">
+                    <span>2 notícias hoje</span>
+                    <span class="badge badge--alto">Alto</span>
+                  </div>
+                </div>
+
+                <div class="watch-card">
+                  <div class="watch-top">
+                    <span class="watch-ticker">VALE3</span>
+                    <span class="watch-company">Vale</span>
+                    <span class="watch-change neg">-1,5%</span>
+                  </div>
+                  <p class="watch-thesis">Neutro — geração de caixa sólida, mas preço do minério limita revisão para cima.</p>
+                  <div class="watch-foot">
+                    <span>1 notícia hoje</span>
+                    <span class="badge badge--medio">Médio</span>
+                  </div>
+                </div>
+
+                <div class="watch-card">
+                  <div class="watch-top">
+                    <span class="watch-ticker">EQTL3</span>
+                    <span class="watch-company">Equatorial</span>
+                    <span class="watch-change pos">+0,7%</span>
+                  </div>
+                  <p class="watch-thesis">Overweight — ciclo de investimento em distribuição com retorno acima do WACC regulatório.</p>
+                  <div class="watch-foot">
+                    <span>1 notícia hoje</span>
+                    <span class="badge badge--medio">Médio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="showcase-note reveal">Conteúdo e tickers das telas são ilustrativos; o score é calculado no backend Nifrep.</p>
+    </div>
+  </section>
+
+  <!-- O DIFERENCIAL / SCORE -->
+  <section class="differential" id="score">
+    <div class="wrap">
+      <div class="differential-copy reveal">
+        <span class="eyebrow eyebrow--accent">O diferencial</span>
+        <h2>O score é a inteligência da casa, virada em número.</h2>
+        <p>Nenhum agregador de notícias sabe o que a Nifrep carrega em carteira. O Radar sabe: o mesmo comunicado do Banco Central pesa diferente para um portfólio com duration intermediária em NTN-B e para um com crédito high yield.</p>
+
+        <ul class="differential-list">
+          <li>
+            <span class="num">01</span>
+            <div>
+              <h3>Relevância para a carteira</h3>
+              <p>cruzamento entre o fato e os nomes, setores e fatores em que a casa está posicionada.</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">02</span>
+            <div>
+              <h3>Direção e horizonte</h3>
+              <p>se o efeito é positivo ou negativo e em que prazo ele tende a se realizar.</p>
+            </div>
+          </li>
+          <li>
+            <span class="num">03</span>
+            <div>
+              <h3>Confiança da leitura</h3>
+              <p>o quanto a interpretação depende de confirmação — dado consolidado ou sinalização.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="score-panel reveal">
+        <div class="app-eyebrow">Score de impacto Nifrep</div>
+        <div class="score-row">
+          <span class="score-number">92</span>
+          <span class="score-of">/100</span>
+          <span class="score-badge">ALTO</span>
+        </div>
+        <div class="score-bar"><span style="width:92%"></span></div>
+        <div class="score-facts">
+          <div>
+            <div class="label">Direção</div>
+            <div class="value">Positivo</div>
+          </div>
+          <div>
+            <div class="label">Horizonte</div>
+            <div class="value">Curto prazo</div>
+          </div>
+          <div>
+            <div class="label">Confiança</div>
+            <div class="value">Alta</div>
+          </div>
+        </div>
+        <ul class="score-ranges">
+          <li><span class="range">70 A 100</span><span class="action">altera tese ou exige decisão no mesmo dia</span></li>
+          <li><span class="range">40 A 69</span><span class="action">monitorar — pode virar tema na semana</span></li>
+          <li><span class="range">0 A 39</span><span class="action">contexto, sem ação de carteira</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FONTES MONITORADAS -->
+  <section class="sources">
+    <div class="wrap">
+      <span class="eyebrow eyebrow--accent reveal">Fontes monitoradas</span>
+      <div class="sources-grid">
+        <div class="source-card reveal">
+          <h3>Bloomberg</h3>
+          <p>Macro global, juros, câmbio e commodities.</p>
+        </div>
+        <div class="source-card reveal">
+          <h3>CVM</h3>
+          <p>Processos, ofertas e governança de emissores.</p>
+        </div>
+        <div class="source-card reveal">
+          <h3>B3</h3>
+          <p>Fatos relevantes, negociação e índices.</p>
+        </div>
+        <div class="source-card reveal">
+          <h3>Banco Central</h3>
+          <p>Copom, Focus, crédito e estatísticas fiscais.</p>
+        </div>
+        <div class="source-card reveal">
+          <h3>Federal Reserve</h3>
+          <p>Atas, discursos e curva de juros americana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section class="audience" id="para-quem">
+    <div class="wrap">
+      <h2 class="reveal">Para quem o Radar foi desenhado.</h2>
+      <div class="audience-grid">
+        <div class="audience-card dark reveal">
+          <span class="eyebrow" style="color:#8fa3b4">Gestor</span>
+          <h3>Decidir com contexto antes da abertura</h3>
+          <p>Chega ao pregão sabendo o que aconteceu, o que pesa nas posições e qual a recomendação do research — em uma tela, não em cinco.</p>
+        </div>
+        <div class="audience-card reveal">
+          <span class="eyebrow eyebrow--accent">Analista</span>
+          <h3>Registrar a leitura onde ela é usada</h3>
+          <p>A interpretação sai do chat e passa a viver anexada ao fato, com histórico por ativo e por tema.</p>
+        </div>
+        <div class="audience-card reveal">
+          <span class="eyebrow eyebrow--accent">Comitê e RI</span>
+          <h3>Rastro de decisão documentado</h3>
+          <p>Cada movimento fica ligado ao fato que o originou e à leitura da casa na data — base pronta para reuniões e relatórios ao investidor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final-cta" id="acesso">
+    <div class="wrap">
+      <div>
+        <h2>Acesso restrito, liberado por convite.</h2>
+        <p>O Radar opera com credencial nominal por usuário, trilha de acesso e conteúdo de research interno. Solicite a liberação para o seu time e receba o piloto com a watchlist já carregada.</p>
+        <div class="final-actions">
+          <a href="#" class="btn btn--primary" data-open-modal>Solicitar acesso</a>
+          <a href="#" class="btn btn--outline-dark" data-open-modal data-demo>Agendar demonstração</a>
+        </div>
+      </div>
+
+      <div class="included-card">
+        <div class="app-eyebrow">O que está incluído no piloto</div>
+        <ul class="included-list">
+          <li>Feed das cinco fontes com score calibrado na sua carteira</li>
+          <li>Watchlist com até 20 ativos e postura da casa</li>
+          <li>Leitura Nifrep diária publicada antes das 07:30</li>
+          <li>Notificação apenas para score acima de 70</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <span class="brand-mark">N</span>
+      <span class="brand-text">
+        <span class="name">Nifrep Radar</span><br>
+        <span class="sub">Nifrep Investimentos · uso interno</span>
+      </span>
+    </div>
+    <p class="footer-disclaimer">Material de apresentação de produto. Não constitui recomendação de investimento nem oferta de valores mobiliários. Telas ilustrativas com dados fictícios.</p>
+  </div>
+</footer>
+
+<!-- Modal de acesso -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle">Solicitar acesso</h3>
+        <p class="modal-sub" id="modalSub">Preencha os dados abaixo e o time da Nifrep libera sua credencial nominal.</p>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    </div>
+
+    <form id="accessForm">
+      <div class="field">
+        <label for="fullName">Nome completo</label>
+        <input type="text" id="fullName" name="fullName" required autocomplete="name">
+      </div>
+      <div class="field">
+        <label for="workEmail">E-mail corporativo</label>
+        <input type="email" id="workEmail" name="workEmail" required autocomplete="email">
+      </div>
+      <div class="field">
+        <label for="role">Função</label>
+        <select id="role" name="role">
+          <option>Gestor</option>
+          <option>Analista</option>
+          <option>Comitê / RI</option>
+          <option>Outro</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn--primary">Enviar solicitação</button>
+    </form>
+
+    <div class="modal-success" id="modalSuccess">
+      Solicitação registrada. O time da Nifrep entra em contato para liberar a credencial e enviar o piloto com a watchlist já carregada.
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
